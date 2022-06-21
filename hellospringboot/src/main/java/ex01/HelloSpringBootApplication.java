@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 /**
- * 1. 스프링부트 애플리케이션의 부트스트래핑 역할(Bootstrapping Class)
+ * 1. 스프링 애플리케이션의 부트스트래핑 역할(Bootstrapping Class)
  * 2. 설정 클래스로 역할(Configuration Class)
  *
  */
