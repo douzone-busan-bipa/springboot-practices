@@ -10,7 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  *
  */
 @SpringBootApplication
-public class HelloSpringBootApplication {
+public class HelloWorldApplication {
 	public static void main(String[] args) {
 		/**
 		 * SpringApplication.run(...) 안에서 일어나는 일(bootstrap):
@@ -36,6 +36,6 @@ public class HelloSpringBootApplication {
 //		}
 		
 //		try ~ with ~ resource
-		try(ConfigurableApplicationContext c = SpringApplication.run(HelloSpringBootApplication.class, args)) {}
+		try(ConfigurableApplicationContext c = SpringApplication.run(HelloWorldApplication.class, args)) {}
 	}
 }
